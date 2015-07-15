@@ -1,0 +1,57 @@
+body, td {
+	line-height: 2em;
+	}
+	
+h1,h2,h3 {
+	line-height: 0.5em;
+	}
+
+
+/* alternate table row colors */
+tr:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+th {
+	text-align: left;
+	background-color: #A6A6A6;
+	}
+
+	
+/* input boxes */
+input,select{
+height:2.5em;
+line-height:2.5em;
+font-size:1em;
+width: 200px;
+padding: 10px;
+}
+
+
+#inputbox {
+	margin-left: 100px;
+	text-align: right;
+	width: 500px;
+	line-height: 3em;
+	}
+	
+/* LINKS */
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: red	;
+}
